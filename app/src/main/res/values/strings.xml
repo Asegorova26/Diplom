@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">30 Days Fitness</string>
+    <string name="program1">Starting Strength</string>
+    <string name="program1desc">The Starting Strength Novice Program can be broken down into two workout days, Day A and Day B.
+        The entire body is worked each session. As the trainee progresses through the program, Days A and B are slightly modified
+        to take into account the adaptations in the body of the lifter.</string>
+    <string name="program2">Judo: Beginner Strength</string>
+    <string name="program2desc">This beginner program is aimed to build strength for judokas. It is meant to start off with and to progress to the intermediate circuit.</string>
+    <string name="program3">3 Day Split</string>
+    <string name="program3desc">A 3 day workout split can be a great way to plan your workout week if you’re pressed for time or don’t
+        want to be in the gym 5 times a week. The different variations of a 3 day workout split are arguably amongst the most used by
+        gym athletes all around the world.</string>
+    <string name="programdesc1">The Starting Strength Program is designed for novice lifters.
+    This program takes advantage of \"newbie gains\" by adding 10 pounds to the squat after 2 times it\'s performed,
+        15-20 lbs to the deadlift the first couple times, and 10 lbs the next several times it\'s performed.
+        For the bench press/shoulder press and the power clean you increment by 5lbs. This program is designed for 3 days a week M/W/F.</string>
+    <string name="programdesc2">This Judo circuit is made to develop the athlete\'s foundational strength. This is meant for beginner judokas to achieve base strength before moving
+        to the intermediate programs. This program is meant to be done in a circuit where each phase is done consecutively for the alloted amount of sets before moving to the next
+        phase (excercise 1 then the next excercise in the phase then reset back to excercise 1). After a month then the athlete can move on to the intermediate circuit
+    </string>
+    <string name="programdesc3">This can be quite effective, especially for beginners, since it allows for plenty of recovery time for the various muscle groups.
+        With a traditional beginner 3 day split, you will mostly only be working out a specific muscle group once a week, so that leaves around 7 days of recovery
+        for that muscle group. If you are looking for a more advanced workout plan that involves high-volume training, we have the Arnold Split workout plan.</string>
+    <string name="phase1">Phase 1</string>
+    <string name="phase2">Phase 2</string>
+    <string name="phase3">Phase 3</string>
+    <string name="dayA">Day A</string>
+    <string name="dayB">Day B</string>
+    <string name="squat">Squats</string>
+    <string name="squatdesc">1. Stand with feet a little wider than hip width, toes facing front.\n
+    2. Drive your hips back—bending at the knees and ankles and pressing your knees slightly open—as you…\n
+    3. Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.\n
+    4. Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.\n
+    5. Press into your heels and straighten legs to return to a standing upright position.</string>
+    <string name="deadlift">Deadlifts</string>
+    <string name="deadliftdesc">1. Stand with your mid-foot under the barbell\n
+    2. Bend over and grab the bar with a shoulder-width grip\n
+    3. Bend your knees until your shins touch the bar\n
+    4. Lift your chest up and straighten your lower back\n
+    5. Take a big breath, hold it, and stand up with the weight</string>
+    <string name="chinup">Chin-Ups</string>
+    <string name="chinupdesc">1. Stand with your arms shoulder-width apart and reach up to grab the overhead bar. Make sure to use an underhand grip — so your palms face toward you.\n
+    2. Brace your abdominal muscles to create tension throughout your body — this increases your stability as you move.\n
+    3. Pull yourself up from your stationary position until your chin is above the bar. Your legs should remain as still as possible and your neck should be in a neutral position, with your head facing forward.\n
+    4. Pause for a moment at the top.\n
+    5. Then slowly lower yourself back down. Force yourself to move slowly during this portion to maximize your gains from this exercise. </string>
+    <string name="bench">Bench Press</string>
+    <string name="benchdesc">1. Lie on the bench with your eyes under the bar\n
+    2. Grab the bar with a medium grip-width (thumbs around the bar!)\n
+    3. Unrack the bar by straightening your arms\n
+    4. Lower the bar to your mid-chest\n
+    5. Press the bar back up until your arms are straight</string>
+    <string name="shoulderp">Shoulder Press</string>
+    <string name="shoulderpdesc">1. Stand with the bar on your front shoulders, and your hands next to your shoulders\n
+    2. Press the bar over your head, until it’s balanced over your shoulders and mid-foot\n
+    3. Lock your elbows at the top, and shrug your shoulders to the ceiling.</string>
+    <string name="clean">Power Cleans</string>
+    <string name="cleandesc">Since this is a complicated excercise we will do it in phases.\n
+    </string>
+    <string name="deadclean">Deadlift/Power Clean</string>
+    <string name="deadcleandesc">At this point you’ve become strong enough to pull enough weight that we limit deadlift and cleaning frequency.</string>
+    <string name="dowelhinge">Dowel Hip Hinge on Incline board</string>
+    <string name="dowelhingedesc">1. Stand on an incline board.\n
+        2.Shift your weight to your heels and push your hips back towards the wall behind you while you hinge forward at the hips. Think about sticking your butt out behind you. As you hinge, the dowel should not lose contact with those three points. If it does, you know you’re doing the move incorrectly.\n
+        3. Lower your torso until it’s midway between vertical and parallel to the floor. Pause. Keep a slight bend in your knees during the downward and upward phase.\n
+        4. Reverse the movement by contracting your glutes and pushing your hips forward and upward to return to the starting position. </string>
+    <string name="deadliftjump">Deadlift to toes - to jump</string>
+    <string name="deadliftjumpdesc">1. Do a regular deadlift and finish on your toes/ball of your foot \n
+    2. Set the bar down in a controlled fashion. \n
+    3. Do a regular deadlift with a jump</string>
+    <string name="lungeRow">Barbell bent over row from lunge</string>
+    <string name="lungeRowDesc">1. Grip bar tightly to your hips.\n
+    2. Go into a bent over lunge position.\n
+    3. Set bar down then pull to the waist.</string>
+    <string name="deepsquatrow">Mid cable row in deep squat</string>
+    <string name="deepsquatrowdesc">1. Position cable in hip height.\n
+    2. Go down in a deeep squat position.\n
+    3. Pull cable in a rowing motion.</string>
+    <string name="zombiesquat">Zombie Squat on incline board</string>
+    <string name="zombiesquatdesc">1. Stand on incline board. \n
+    2. Place the bar right in front of your shoulder muscles, once the bar is stable stick your arms out like a zombie.\n
+    3. With chest up go as low as you can preferrably to 90 degrees.\n
+    4. Reset to standing</string>
+    <string name="armpulltowaist">High cable straight arm pull to waist in hinge hold</string>
+    <string name="armpulltowaistdesc">1. Set up your attachment of choice (i.e. straight bar, wide grip bar, or rope attachment) to a cable or lat pulldown machine and grip the attachment with an overhand (palms facing down) or neutral shoulder-width grip (palms facing in).\n
+        2. Then step back from the machine and straighten your arms. Keep your chest up and pull your shoulders down and back for better shoulder positioning. Brace your anterior core.\n
+        3. Hinge your butt back and lean forward to a 35 to a 45-degree angle, feeling a slight stretch in your lats with your arms up in the top position.\n
+        4. Keeping straight arms, pull the bar down to your thighs focusing on pulling your shoulder blades down and back. Pause for a second.\n
+        5. Then slowly bring it back up, keeping your elbows in place, and raise the bar until you feel a stretch in your lats.\n
+        6. Repeat for reps. </string>
+    <string name="shoulderpfromknee">Shoulder Press from kneeling</string>
+    <string name="shoulderpfromkneedesc">1. Find a stable half kneeling position with the knee at 90 degrees.\n
+        2. Start with the dumbbell at the shoulder, with the elbow facing slightly away from the body.\n
+        3. Press the dumbbell overhead and lock the elbow to move through the full range of motion.\n
+        4. Move back to the starting position with control. Do not let the weight pull you out of position.</string>
+    <string name="inclinebench">Incline Dumbell Press</string>
+    <string name="inclinebenchdesc">1. Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on the edge of an incline bench.\n
+        2. To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, and press the dumbbells to lockout at the top.\n
+        3. Slowly lower the dumbbells under control as far as comfortably possible (the handles should be about level with your chest).\n
+        4. Contract the chest and push the dumbbells back up to the starting position.\n
+        5. Repeat for the desired number of repetitions.\n</string>
+    <string name="cablecross">Cable Crossover</string>
+    <string name="cablecrossdesc">1. Ensure cables are adjusted at chest height. Stand with your back toward the cable machine. Grab the handles and hold them out to the side of your body with your palms facing forward. Draw in and brace your abs. Lock shoulder blades back and down.\n
+        2. Drive the hands forward and together in an arcing motion allowing the hands to pass with one hand above and one below.\n
+        3. Reverse the pattern and return to the starting position moving through a maximum range of motion that technique can be maintained.\n
+        4. Repeat, alternating the top/bottom hand. Maintain posture throughout. Avoid arching or slouching the back, jutting the chin forward, slouching or shrugging the shoulders\n.</string>
+    <string name="latraise">Lat Raises</string>
+    <string name="latraisedesc">1. Stand tall, a dumbbell in each hand. Arms are at your sides, palms facing in. Position your feet roughly hip-distance apart. Check your posture—roll your shoulders back, engage your core, and look straight ahead.\n
+        2. Raise your arms simultaneously just a couple inches out to each side and pause. This momentary pause should help ensure you disengage your trapezius muscle from the movement, targeting the deltoids as intended.\n
+        3. Lift the dumbbells up and out to each side, keeping your arms almost completely straight, stopping when your elbows reach shoulder-height and your body is forming a "T" shape. Breathe in as you lift.\n
+        4. Pause and hold for a second at the top of the movement.\n
+        5. Lower the weights slowly (take about twice as long to lower the weights as you took to lift them), bringing your arms back to your sides. Breathe out as you lower the dumbbells.\n</string>
+    <string name="skullcrush">Skull Crushers</string>
+    <string name="skullcrushdesc">1. Flex your elbows and lower the weight toward the top of your head. Your upper arms should remain relatively perpendicular to your body. This keeps the tension on the triceps versus shifting it to the shoulders.\n
+        2. Continue lowering the weight behind the head. The bottom of the dumbbell head should be about in line with the bench\'s top, or even a little higher if this feels unwieldy.\n
+        3. Reverse the movement until the weight is above the chest in the original starting position. Keep from locking the elbow to maintain tension in your triceps muscle.\n
+        4. Repeat.</string>
+    <string name="triceppushdown">Tricep Rope Pushdown</string>
+    <string name="triceppushdowndesc">1. Start by bracing your abdominals.\n
+        2. Tuck your elbows in at your sides and position your feet slightly apart.\n
+        3. Inhale. Push down until your elbows are fully extended but not yet in the straight, locked position. Keep your elbows close to your body and bend your knees slightly on the pushdown. Resist bending forward. Try to keep your back as straight as possible as you push down.\n
+        4. As you exhale, return to the starting point using a controlled movement. Try not to crash the weights.</string>
+    <string name="cablerow">Cable Row</string>
+    <string name="cablerowdesc">1. Pull the handle and weight back toward the lower abdomen while trying not to use the momentum of the row too much by moving the torso backward with the arms.\n
+        2. Target the middle to upper back by keeping your back straight and squeezing your shoulder blades together as you row, keeping your chest out.\n
+        3. Return the handle forward under tension to full stretch, remembering to keep that back straight even though flexed at the hips. Repeat the exercise for the desired number of repetitions.</string>
+    <string name="latpull">Lat Pulldown</string>
+    <string name="latpulldesc">1. Pull the handle and weight back toward the lower abdomen while trying not to use the momentum of the row too much by moving the torso backward with the arms.\n
+        2. Target the middle to upper back by keeping your back straight and squeezing your shoulder blades together as you row, keeping your chest out.\n
+        3. Return the handle forward under tension to full stretch, remembering to keep that back straight even though flexed at the hips. Repeat the exercise for the desired number of repetitions.</string>
+    <string name="bentfly">Bent Over Flies</string>
+    <string name="bentflydesc">1. Raise both arms out to your side on an exhale. Keep a soft bend in your elbows. Squeeze the shoulder blades together as you pull them toward the spine.\n
+        2. Lower the weight back to the start position as you inhale. Avoid hunching your shoulders, and keep your chin tucked to maintain a neutral spine during the exercise.</string>
+    <string name="hyperextension">Hyperextensions</string>
+    <string name="hyperextensiondesc">1. Setup in a hyperextension machine with your feet anchored and torso roughly perpendicular to your legs at a 45 degree angle.\n
+        2. Begin in a hinged position with your arms crossed and initiate the movement by flexing your glutes.\n
+        3. Extend the hips and finish with your body in a straight line.\n
+        4. Repeat for the desired number of repetitions.</string>
+    <string name="bicepcurl">Bicep Barbell Curls</string>
+    <string name="bicepcurldesc">1 .Stand Up Tall\n
+        2. Squeeze the Bar\n
+        3. Curl Up and Slightly Out\n
+        4. Find the Contraction and Hold it\n
+        5.  Control the Bar on the Way Down</string>
+    <string name="hammercurl">Hammer Curls</string>
+    <string name="hammercurldesc">1. Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders. Your upper arms are stationary and the wrists are in line with the forearms.\n
+        2. Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body.\n
+        3. Lower the weights to return to the starting position.</string>
+    <string name="legpress">Leg Press</string>
+    <string name="legpressdesc">1. Brace your abdominal muscles and push the platform away with your heels and forefoot. Your heels should remain flat on the footplate. The front of your foot or toes should never be used exclusively to move the pad forward.\n
+        2. While exhaling, extend your legs and keep your head and back flat against the seat pad. Extend with slow control rather than with an explosive movement.\n
+        3. Pause at the top of the movement. Do not lock out your knees, and ensure that they are not bowing out or in.\n
+        4. While inhaling, return the footplate to the starting position by gradually bending the knees. Keep the feet and back flat throughout.\n
+        5. If you have never done leg presses, start modestly with three sets of 10 leg presses. You can advance from there as you build strength.</string>
+    <string name="legcurl">Leg Curls</string>
+    <string name="legcurldesc">1. When doing seated leg curls, the thigh pad should rest just above the knees and the lower leg pad directly below the calf.\n
+        2. While grasping the machine\'s handles, push down on the lower leg pad, pulling it as close to your butt as you can.\n
+        3. Hold, then return to the starting position.</string>
+    <string name="legextension">Leg Extensions</string>
+    <string name="legextensiondesc">1. Place your hands on the hand bars.\n
+        2. Lift the weight while exhaling until your legs are almost straight. Do not lock your knees. Keep your back against the backrest and do not arch your back.\n
+        3. Exhale and lower the weight back to starting position.\n
+        4. Do three sets of eight to 12 repetitions.</string>
+    <string name="calfraises">Standing Calf Raises</string>
+    <string name="calfraisesdesc">1. Stand with your feet flat on the floor, hip-width apart, and toes facing forward. If needed, use the wall or the back of a chair for balance.\n
+        2. Rise onto the balls of your feet, as high as you can. Give your calf muscles an extra squeeze at the top.\n
+        3. Pause, then lower your heels back down in a slow, controlled motion. (When you go too fast, your Achilles tendon does more work than your calf muscles.)\n
+        4. Repeat as desired, maintaining that slow tempo.</string>
+    <string name="plank">Plank</string>
+    <string name="plankdesc">1. Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor.\n
+        2. Engage your abdominal muscles, drawing your navel toward your spine. Keep your torso straight and rigid and your body in a straight line from your ears to your toes with no sagging or bending. This is the neutral spine position. Ensure your shoulders are down, not creeping up toward your ears. Your heels should be over the balls of your feet.\n
+        3. Hold this position for 10 seconds. Release to floor.\n
+        4. Over time work up to 30, 45, or 60 seconds.</string>
+    <string name="crunches">Crunches</string>
+    <string name="crunchesdesc">1. Brace your core.\n
+        2. Crunch your ribs toward your pelvis using your abdominal muscles to initiate and complete the movement.\n
+        3. Exhale as you come up and keep your neck straight, chin up.\n
+        4. Hold at the top of the movement for a few seconds, breathing continuously.\n
+        5. Lower slowly back down, but don\'t relax all the way.\n
+        6. Repeat for 15 to 20 repetitions with perfect form for each rep.</string>
+    <string name="onemin">1 MINUTE REST</string>
+    <string name="push">Push</string>
+    <string name="pull">Pull</string>
+    <string name="legs">Legs and Core</string>
+    <string name="back_button">Back</string>
+    <string name="expand_button_content_description">See more or less information about an exercise.</string>
+
+
+</resources>
