@@ -9,26 +9,24 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.a30daysfitness.model.FitnessUiState
+import androidx.navigation.compose.rememberNavController
+import com.google.firebase.auth.FirebaseAuth
 import com.example.a30daysfitness.ui.theme._30DaysFitnessTheme
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 
 class MainActivity : ComponentActivity() {
-    //Dessert UI state
-    private val _uiState = MutableStateFlow(FitnessUiState())
-    val uiState: StateFlow<FitnessUiState> = _uiState.asStateFlow()
+    private lateinit var auth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        auth = FirebaseAuth.getInstance()
         setContent {
             _30DaysFitnessTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    FitnessApp()
+                    val navController = rememberNavController()
+                    NavGraph(navController = navController, auth = auth)
                 }
             }
         }

@@ -1,7 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.kapt") // Подключаем KAPT
+    id("kotlin-kapt") // Добавлен плагин KAPT
+    id("com.google.gms.google-services") // Добавление плагина Google Services
 }
 
 android {
@@ -37,11 +38,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(8))
+        }
+    }
     buildFeatures {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.4.4"
     }
     packaging {
         resources {
@@ -60,7 +66,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:${rootProject.extra["lifecycle_version"]}")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -69,15 +75,13 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation("androidx.navigation:navigation-compose:2.7.7")
+    kapt("com.google.dagger:dagger-compiler:2.40.5")
 
-    // Room for database
-    implementation("androidx.room:room-runtime:2.6.1")
-    kapt("androidx.room:room-compiler:2.6.1") // Используем KAPT
-
-    // Firebase
+    // Firebase dependencies
     implementation("com.google.firebase:firebase-auth:23.0.0")
-    implementation("com.google.firebase:firebase-database:21.0.0")
+    implementation ("com.google.firebase:firebase-database-ktx:21.0.0")
+    implementation("com.google.firebase:firebase-firestore:25.0.0")
 }
 
-// Добавьте это в самый конец файла
+// Применение плагина Google Services
 apply(plugin = "com.google.gms.google-services")
