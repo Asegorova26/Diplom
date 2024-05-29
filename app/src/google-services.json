@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407773776397",
+    "project_id": "project-diplom-2d15d",
+    "storage_bucket": "project-diplom-2d15d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407773776397:android:635326ce32eb3a0d90e344",
+        "android_client_info": {
+          "package_name": "com.example.a30daysfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBu48fusqey5VIoGmkHHeBPPGe57UrP9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,16 +1,17 @@
-package com.example.a30daysfitness
+package com.example.a30daysfitness.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.google.firebase.auth.FirebaseAuth
+import com.example.a30daysfitness.navigation.Screen
 
 @Composable
-fun AuthScreen(navController: NavHostController, auth: FirebaseAuth) {
+fun RegistrationEmailPasswordScreen(navController: NavHostController) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
     var message by remember { mutableStateOf("") }
@@ -18,8 +19,12 @@ fun AuthScreen(navController: NavHostController, auth: FirebaseAuth) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
+        Text(text = "Регистрация", style = MaterialTheme.typography.headlineMedium)
+        Spacer(modifier = Modifier.height(8.dp))
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
@@ -37,36 +42,15 @@ fun AuthScreen(navController: NavHostController, auth: FirebaseAuth) {
         Spacer(modifier = Modifier.height(16.dp))
         Button(
             onClick = {
-                auth.createUserWithEmailAndPassword(email, password)
-                    .addOnCompleteListener { task ->
-                        message = if (task.isSuccessful) {
-                            navController.navigate(Screen.Profile.route)
-                            "Registration Successful"
-                        } else {
-                            "Registration Failed: ${task.exception?.message}"
-                        }
-                    }
+                if (email.isNotEmpty() && password.isNotEmpty()) {
+                    navController.navigate(Screen.RoleSelection.createRoute(email, password))
+                } else {
+                    message = "Email и пароль не должны быть пустыми"
+                }
             },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Register")
-        }
-        Spacer(modifier = Modifier.height(8.dp))
-        Button(
-            onClick = {
-                auth.signInWithEmailAndPassword(email, password)
-                    .addOnCompleteListener { task ->
-                        message = if (task.isSuccessful) {
-                            navController.navigate(Screen.Profile.route)
-                            "Login Successful"
-                        } else {
-                            "Login Failed: ${task.exception?.message}"
-                        }
-                    }
-            },
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Text("Login")
+            Text("Далее")
         }
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = message, style = MaterialTheme.typography.bodyLarge)
